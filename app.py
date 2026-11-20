@@ -2,7 +2,7 @@ from flask import Flask, render_template_string, request, jsonify
 from nsepython import nse_optionchain_scrapper
 from datetime import datetime
 
-app = Flask(__name__)
+app = Flask(__name__
 
 # Complete List of Major Indices & F&O Stocks
 FNO_SYMBOLS = [
